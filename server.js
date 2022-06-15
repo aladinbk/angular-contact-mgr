@@ -1,7 +1,4 @@
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('../server/db.json'); // <== Will be created later
-const middlewares = jsonServer.defaults();
+
 //Install express server
 const express = require('express');
 const path = require('path');
@@ -15,7 +12,6 @@ app.get('/*', (req, res) =>
     res.sendFile('index.html', {root: 'dist/angular-contact-mgr/'}),
 );
 
-server.use(middlewares);
-server.use(router);
+
 // Start the app by listening on the default Heroku port
 app.listen(process.env.PORT || 8080);
