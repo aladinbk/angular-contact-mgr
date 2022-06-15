@@ -1,0 +1,44 @@
+{
+  "contacts": [
+    {
+      "id": "CIN09190740",
+      "name": "Alaeddine Boubaker",
+      "company": "Youtube",
+      "email": "alaeddineboubaker@gmail.com",
+      "title": "Full Stack Developer",
+      "mobile": "58612156",
+      "photo": "https://media-exp1.licdn.com/dms/image/C4E03AQHp-PQJKoXcVQ/profile-displayphoto-shrink_200_200/0/1649468784392?e=1656547200&v=beta&t=NT1iih76fX5ayjPDoewR8_Lxc6wWouFu-YWQn-NKNH0",
+      "groupId": "1"
+    },
+    {
+      "id": "CIN99145785",
+      "name": "Mohamed Salah",
+      "company": "Footballeur",
+      "email": "mosalah@gmail.com",
+      "title": "Footbaleur",
+      "mobile": "25645894",
+      "photo": "https://netstorage-sportsbrief.akamaized.net/images/dd594b5047322ae8.jpg?imwidth=900",
+      "groupId": "2"
+    },
+    {
+      "name": "Aladin Disney",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtrKMxu6eiruP6CgcjasDlBonFTTTbbKxnumk_ZHtq938DAnPj5UvKJO1XaINCPdBSfYs&usqp=CAU",
+      "email": "aladin@gmail.com",
+      "mobile": 58612156,
+      "company": "disney",
+      "title": "aladin ",
+      "groupId": "1",
+      "id": "S4Jdyfu"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Collegue"
+    },
+    {
+      "id": "2",
+      "name": "Football"
+    }
+  ]
+}
