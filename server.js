@@ -1,6 +1,6 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('./server/db.json'); // <== Will be created later
+const router = jsonServer.router('server/db.json'); // <== Will be created later
 const middlewares = jsonServer.defaults();
 //Install express server
 const express = require('express');
